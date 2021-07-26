@@ -1,0 +1,2 @@
+# Harry-rest-api
+Harry is addicted to some apps on his phone. He wants to control his addiction which sometimes gets in the way of his work while he is working from home. To do this, he needs to be able to block certain addictive apps during his work time.  During his non-work (leisure) time, he wants to be able to use some apps with maximum time-limitations to reduce the total time he spends on them that day. On weekends, he wants to be able to use them a little longer than usual.
