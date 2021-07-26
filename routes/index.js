@@ -18,8 +18,8 @@ route.post("/login", loginController.login);
 route.get("/me", auth, userController.me);
 route
   .route("/worktime")
-  .post(workController.addWorkTime)
-  .get(workController.getAllWorkTime);
-route.patch("/blockapp/:id", workController.blockApp);
+  .post(auth, workController.addWorkTime)
+  .get(auth, workController.getAllWorkTime);
+route.patch("/blockapp/:id", auth, workController.blockApp);
 
 export default route;
