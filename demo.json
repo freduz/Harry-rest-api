@@ -1,0 +1,15 @@
+{
+  "workTime": [
+    "com.facebook.katana",
+    "workTimeApp",
+    "com.instagram.android",
+    "com.twitter.android",
+    "com.eterno"
+  ],
+  "nonWorkTime": [
+    {
+      "nonWorkTimeApp": "com.facebook.katana - 30m",
+      "limit": [{ "weekDays": "1h", "weekEnds": "1h 30min" }]
+    }
+  ]
+}
